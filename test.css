@@ -1,0 +1,70 @@
+.service-el {
+    max-width: 560px;
+    min-width: 345px;
+    border: 1px solid #937eff;
+    background-color: #030712;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    transform-origin: 100% 100%;
+    border-radius: 24px;
+    padding: 48px 36px 36px;
+    position: relative;
+    z-index: 5;
+     margin-top: 10% c;
+     
+     margin:40px ;
+ }
+.control-box{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-auto-flow: row;
+     align-content: center;    
+    justify-content: center;
+    padding: 100px;
+}
+body {
+    font-family: Dmsans, Arial, sans-serif;
+    font-size: 16px;
+ }
+.service-bg-container {
+    z-index: -2;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.soverlay-container {
+    z-index: -1;
+    border-radius: 24px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: hidden;
+}
+h3{
+    color: white;
+}
+.service-bio {
+    font-size: 17px;
+    line-height: 1.75;
+    color: white;
+}
+.service-icon {
+    width: 88px;
+    height: 88px;
+    background-color: #1b2332;
+    background-image: linear-gradient(135deg, var(--indigo-500), var(--phi-500));
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow .35s;
+    display: flex;
+    position: absolute;
+    top: -49px;
+    left: 60px;
+    box-shadow: 0 11px 50px rgba(2,228,162,.15), 2px -11px 45px rgba(2,228,162,.1);
+}

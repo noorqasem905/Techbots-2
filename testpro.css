@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.page{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,1fr);
+ 
+    grid-template-rows: auto auto  ;
+    grid-template-areas: "header header" "one two";
+}
+header{
+    width: 100%;
+     height: auto !important;
+    grid-area: header;
+    background-color: aqua;
+    
+ }
+.container{
+     width: 100%;
+     background-color: rgb(23, 33, 30);
+     display: grid;
+     grid-template-columns: repeat(3,auto); 
+     grid-template-areas: "div . button ";
+}
+.container div{
+    grid-area: div;
+}
+header .button-parent{
+      display: flex;
+      justify-content: end;
+      grid-area: button;
+      width: 100%;
+         padding: 10px;
+       font-size: 20px;
+        
+    }
+    
+    .page .container .button-parent .contact,
+    .page .container .button-parent .follow {
+        margin: 5px;
+    padding:2% 3%;
+   color: #ffffff;
+   background-color: #0051ff;
+   border-radius: 30px;
+   font-weight: bold;
+   border: 0;
+   transition: 0.3s;
+   
+ }
+ .page .container .button-parent .contact:hover,
+    .page .container .button-parent .follow:hover 
+{
+    position: relative;
+    background-color: black;
+    color: #ff6060;
+     box-shadow: 0 0px 15px 2px rgb(188, 207, 249);
+     text-transform: 10px;
+     letter-spacing: 1px;
+
+}
+    .one{ 
+     grid-area: one;    height:  50vh;
+    background-color: tomato;
+}
+.two{
+    background-color: blue;
+    grid-area: two;    height:  50vh;
+
+}
