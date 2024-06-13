@@ -5,16 +5,9 @@
   background-color: rgb(231, 231, 231);
   width: 100%;
    display: grid;
-  /* grid-template-columns: repeat(5, auto);
-  grid-template-rows: repeat(3, auto); */
-  /* row-gap: 10px;
-  grid-auto-columns: 10px; */
+
   cursor: grab;
-  gap: 10px 10px;
-  /* justify-content: space-evenly; */
-  /* align-content: space-around; */
-  /* grid-template-columns: repeat(3, auto); */
-  /* grid-template-areas:"head head head head head" ; */
+
   grid-template-columns:repeat(auto-fill ,minmax(250px,1fr)) ;
   grid-template-rows:repeat(auto, minmax(200px,1fr )) ;
 }
@@ -36,21 +29,9 @@
   position: relative;
   
 }
-.parent .one {
-  /* grid-column: 2 / span 3; */
-  /* grid-area: 2 /2 /4/5; */
-}
-.parent .two {
-  /* grid-column: 2 / span 3; */
-  /* grid-area: head; */
-  /* width: 100%;
-  display: grid;
-  grid-template-columns:repeat(auto-fill ,minmax(250px,1fr)) ;
-  grid-template-rows:repeat(auto, minmax(200px,1fr )) ;*/
 
-}.parent .two .img{
-  /* grid-column: 2 / span 3; */
-  /* grid-area: head; */
+.parent .two .img{
+
 background-image: url(technolgy.jpg);
 width: 100%;
 min-height: 500px;
@@ -78,8 +59,6 @@ filter: grayscale(70%);
   left: 15px;
 }
 .parent .two p{
-  /* grid-column: 2 / span 3; */
-  /* grid-area: head; */
   font-size: 20px;
    text-align: center;
    position: absolute;
