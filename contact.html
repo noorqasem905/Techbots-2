@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="regestration.css">
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="all.min.css" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+    <link rel="stylesheet" href="" />
+    <title>Document</title>
+ 
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html">
+          <img src="logo.png" style="width: 150px; height: 100" alt=""
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html" style="color: rgb(0, 89, 255);
+                border-bottom: 2px solid rgb(0, 0, 255);">regestration</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="ourevent.html">Our Events</a></li>
+          </ul>
+          <div class="form">
+            <i> <img src="menu.svg" alt="" onclick="myFunction()">
+            </i>
+            <i class="fas fa-search"> </i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="mobile-container" id="mobile" style="top: 0px;">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+         <div id="myLinks" class="topdiv" style="color:'6744ff';">
+          <a href="index.html">Home</a>
+          <a href="contact.html">regestration</a>
+          <a href="about.html">About Us</a>
+          <a href="ourevent.html">Our Events</a>
+        </div>
+    
+           
+        
+      </div>
+    </div>
+
+    <div class="box-regest">
+    <div class="main"> 
+      <h1>Techbots regestration</h1> 
+      <form action=""> 
+          <label for="first">First Name:</label> 
+          <input type="text" id="first" 
+                 name="first" 
+                 placeholder="Enter your first name" required> 
+
+          <label for="last">Last Name:</label> 
+          <input type="text" id="last" 
+                 name="last" 
+                 placeholder="Enter your last name" required> 
+
+          <label for="email">Email:</label> 
+          <input type="email" id="email" 
+                 name="email" 
+                 placeholder="Enter your email" required> 
+
+          <label for="dob">Date of Birth:</label> 
+          <input type="date" 
+                 id="dob" name="dob" 
+                 placeholder="Enter your DOB" required> 
+
+          <label for="password">Password:</label> 
+          <input type="password" id="password" 
+                 name="password"
+                 placeholder="Enter your password"
+                 pattern= 
+                 "^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" required                    
+                 title="Password must contain at least one number,  
+                     one alphabet, one symbol, and be at  
+                     least 8 characters long"> 
+
+          <label for="repassword">Re-type Password:</label> 
+          <input type="password" id="repassword" 
+                 name="repassword" 
+                 placeholder="Re-Enter your password" required> 
+          <span id="pass"></span> 
+
+          <label for="mobile">Contact:</label> 
+          <input type="text" id="mobile" 
+                 name="mobile" 
+                 placeholder="Enter your Mobile Number" required 
+                 maxlength="10"> 
+
+          <label for="gender">Gender:</label> 
+          <select id="gender" name="gender" required> 
+              <option value="male">Male</option> 
+              <option value="female">Female</option> 
+           </select> 
+
+          <div class="wrap"> 
+              <button type="submit" onclick="solve()"> 
+                Submit 
+                </button> 
+          </div> 
+      </form> 
+  </div> 
+</div>
+  
+    <footer>
+      <ul class="footer-col">
+        <h3>Page</h3>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="ourevent.html">Our Event</a></li>
+      </ul>
+      <ul class="footer-col">
+        <h3>INFO</h3>
+        <li>techbots.tech</li>
+        <li>96279</li>
+        <li>96279</li>
+      </ul>
+      <ul class="footer-col">
+        <h3><p>Our Team</p></h3>
+        <li>ِِAnwar miqdad</li>
+        <li><a href="profile.html">Noor Aldeen Qasem</a></li>
+        <li>mahmoud esam</li>
+      </ul>
+    </footer>
+  </body>
+  <script>
+    function myFunction() {
+var x = document.getElementById("mobile");
+ 
+ if (x.style.display === "block") {
+   x.style.display = "none";
+//    y.style.display="none"; 
+} else {
+  x.style.display = "block";
+  //y.style.display="flex !important";
+}
+}
+  </script>
+</html>
