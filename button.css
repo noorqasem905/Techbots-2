@@ -1,0 +1,33 @@
+.videocontant .inernal{
+    position: relative !important;
+}
+
+ .inernal video {
+    width: 100% !important;
+    height: auto;
+ margin-bottom:5px ;
+}
+
+.videocontant .inernal .but {
+    position: absolute;
+margin-bottom: 20px;
+    left: 0%;
+     transform: translateX(-50%);
+    display: flex;
+    background-color: black;
+    border-radius: 5%;
+    padding: 15px;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 109), 0 0 6px 0 #b3b3ff;
+    transition: 0.2s;
+    color: #3898ec;
+}
+.videocontant .inernal .but :active,
+.videocontant .inernal .but:hover{
+     display: flex !important;
+    margin-left: 30px;
+    box-shadow: 0 0 20px 0 #0bfffb;
+     animation-delay: 2s;
+      color: #11ebab;
+}
