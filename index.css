@@ -61,7 +61,7 @@ video {
 /*Small Screens*/
 @media (min-width:800px) {
   header nav ul li img,
-  header nav .form i img {
+  header nav .form i  #menu {
     display: none !important;
     
 
@@ -175,16 +175,23 @@ header nav .form {
   border: 1px solid rgb(255, 255, 255);
   right: 50px;
 }
-header nav .form i {
+
+header nav .form i  {
   color: rgb(255, 255, 255);
   position: absolute;
   font-size: 20px;
   top: 10%;
   transform: translate(10px);
 }
-header nav .form i img {
+header nav .form i #search{
+  top: -6px;
+  left: -4px;
+  position: absolute;
+}
+header nav .form i #menu{
   transform: translate(-38px);
   top: -4px;
+  
   position: absolute;
 }
 
