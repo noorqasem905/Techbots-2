@@ -74,6 +74,10 @@ video {
    header .container nav ul li a {
     display: none !important;
   }
+  header .container nav ul li a,
+  header .container nav ul li img{
+  padding: 0px 20px !important;
+}
   header .container {
     padding: 10px;
   }
