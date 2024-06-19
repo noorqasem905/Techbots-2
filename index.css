@@ -200,11 +200,13 @@ header nav .form i #menu{
 }
 
 .mobile-container {
-  display: block;
-  position: relative;
   top: 65px;
-   background-color: #c2b7ff;
-  padding: 28px;
+  z-index: 1; 
+  padding: 5px;
+  display: block;
+  font-size: small;
+  position: relative;
+  background-color: #c2b7ff;
   align-content: space-between;
   border: black 1px solid;
  }

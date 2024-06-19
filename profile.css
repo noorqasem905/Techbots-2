@@ -150,11 +150,24 @@ h3 {
   cursor: pointer;
   border-radius: 5px;
 }
-
-.parent .share .follow {
-}
+ 
 .parent .share-parent .share .socal-media:hover,
 .parent .share-parent .share .follow:hover {
   background-color: black;
   color: white;
+}
+@media (max-width: 600px) {
+  .parent .share-parent .share .socal-media, .parent .share-parent .share .follow {
+  
+    padding: 14px 14px !important;
+       
+}
+.share {
+  position: relative;
+  top: 20px !important;
+}
+.service-el {
+  max-width: 350px;
+  padding: 50px;
+}
 }
