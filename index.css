@@ -748,6 +748,9 @@ footer ul li {
         display: flex;
         top: 20% !important;
     }
+    .boxc .contact-title {
+      font-size: 25px !important;
+  }
 } 
  
 footer a {
@@ -773,7 +776,7 @@ footer a:hover{
   }
 
   .boxc .contact-title {
-      font-size: 48px
+      font-size: 46px
   }
 
   .boxc .contact-form-container {
@@ -799,7 +802,7 @@ footer a:hover{
   }
 
   .boxc .contact-title {
-      font-size: 44px
+      font-size: 40px !important
   }
 
   .boxc .contact-form-container {
@@ -840,7 +843,7 @@ footer a:hover{
   }
 
   .boxc .contact-title {
-      font-size: 36px
+    font-size: 29px !important;
   }
 
   .boxc .contact-form-container.main {
