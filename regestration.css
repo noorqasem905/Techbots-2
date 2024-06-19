@@ -65,6 +65,9 @@ input {
 	border: 1px solid #ddd; 
 	border-radius: 5px; 
 } 
+#mobile {
+	display: block !important;
+}
 
 select { 
     padding: 15px;
